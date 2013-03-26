@@ -1,1 +1,1 @@
-app: bundle exec thin start -p $PORT -R hiki.ru
+app: bundle exec thin --socket /var/run/app/app.sock -R hiki.ru start
