@@ -1,9 +1,7 @@
-# $Id: flatfile.rb,v 1.23 2005/11/01 14:21:00 yanagita Exp $
 # Copyright (C) 2007 Kazuhiko <kazuhiko@fdiary.net>
 
 require "hiki/storage"
 require "hiki/util"
-require "hiki/db/tmarshal"
 require "sequel"
 
 module Hiki
@@ -14,6 +12,8 @@ module Hiki
       @conf = conf
       @wiki = @conf.database_wiki
       @cache = {}
+
+      @conf.repos.db = self
     end
 
     def open_db
@@ -45,11 +45,7 @@ module Hiki
       last_modified = Time::now
 
       revisions = @db[:page_backup].where(wiki: @wiki, name: page).select(:revision).to_a.map{|record| record[:revision]}
-      revision = if revisions.empty?
-                   1
-                 else
-                   max(revisions)
-                 end
+      revision = revisions.empty? ? 1 : revisions.max
       @db[:page_backup].insert(body: body, last_modified: last_modified, wiki: @wiki, name: page, revision: revision)
 
       record = @db[:page].where(wiki: @wiki, name: page)
@@ -120,7 +116,7 @@ module Hiki
         end
         @db[:page].where(wiki: @wiki, name: page).update(attribute => value)
         unless %w(references count freeze).include?(attribute)
-          @db[:page_backup].where(wiki: @wiki, name: page).order(:revision).limite(1).update(attribute => value)
+          @db[:page_backup].where(wiki: @wiki, name: page).order(:revision).limit(1).update(attribute => value)
         end
       end
     end
