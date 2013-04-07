@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 require 'hiki/util'
+require "fileutils"
 
 module Hiki
   module Farm
     class Manager
+      include FileUtils
+
       attr_reader :wikilist
 
       def initialize(conf)
@@ -41,22 +44,11 @@ module Hiki
       end
 
       def create_wiki(name)
-        Dir.mkdir("#{@farm_pub_path}/#{name.untaint}")
+        mkdir_p("#{@farm_pub_path}/#{name.untaint}")
 
         unless Object.const_defined?(:Rack)
-          # create index.cgi
-          File.open("#{@farm_pub_path}/#{name}/#{@conf.cgi_name}", 'w') do |f|
-            f.puts(index(name, @conf.hiki))
-            f.chmod(0744)
-          end
-
-          # create attach.cgi
-          if attach_cgi_name
-            File.open("#{@farm_pub_path}/#{name}/#{@conf.attach_cgi_name}", 'w') do |f|
-              f.puts(attach(name, @conf.hiki))
-              f.chmod(0744)
-            end
-          end
+          create_index_cgi(name)
+          create_attach_cgi(name)
         end
 
         # create hikiconf.rb
@@ -64,15 +56,14 @@ module Hiki
           f.puts(conf(name, @conf.hiki))
         end
 
-        # TODO: use fileutils
-        Dir.mkdir("#{@conf.data_root}/#{name}")
-        Dir.mkdir("#{@conf.data_root}/#{name}/text")
-        Dir.mkdir("#{@conf.data_root}/#{name}/backup")
-        Dir.mkdir("#{@conf.data_root}/#{name}/cache")
+        mkdir_p("#{@conf.data_root}/#{name}")
+        mkdir_p("#{@conf.data_root}/#{name}/text")
+        mkdir_p("#{@conf.data_root}/#{name}/backup")
+        mkdir_p("#{@conf.data_root}/#{name}/cache")
         require 'fileutils'
         Dir["#{@conf.default_pages_path}/*"].each do |f|
           f.untaint
-          FileUtils.cp(f, "#{@conf.data_root}/#{name}/text/#{File.basename(f)}") if File.file?(f)
+          cp(f, "#{@conf.data_root}/#{name}/text/#{File.basename(f)}") if File.file?(f)
         end
 
         @repos.import(name)
@@ -87,6 +78,23 @@ module Hiki
       end
 
       private
+
+      def create_index_cgi(name)
+        index_cgi_path = File.join(@farm_pub_path, name, @conf.cgi_name)
+        File.open(index_cgi_path, 'w') do |f|
+          f.puts(index(name, @conf.hiki))
+          f.chmod(0744)
+        end
+      end
+
+      def create_attach_cgi(name)
+        return unless attach_cgi_name
+        attach_cgi_path = File.join(@farm_pub_path, name, @conf.attach_cgi_name)
+        File.open(attach_cgi_path, 'w') do |f|
+          f.puts(attach(name, @conf.hiki))
+          f.chmod(0744)
+        end
+      end
 
       def conf(wiki, hiki)
         __my_wiki_name__ = wiki
