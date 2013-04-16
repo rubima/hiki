@@ -67,7 +67,7 @@ module Hiki
     def load(page)
       return @cache[page] if @cache.has_key?(page)
 
-      if res = @db[:page].where(wiki: @wiki, name: page).select(:body).first
+      if res = @db[:page].where(wiki: @wiki, name: page).limit(1).select(:body).first
         @cache[page] = res[:body]
       else
         @cache[page] = nil
@@ -76,7 +76,11 @@ module Hiki
     end
 
     def load_backup(page)
-      @db[:page_backup].where(wiki: @wiki, name: page).order(:revision).limit(1, 1).to_a.first
+      if res = @db[:page_backup].where(wiki: @wiki, name: page).order(:revision).limit(1).select(:body).first
+        res[:body]
+      else
+        nil
+      end
     end
 
     def save(page, src, md5)
