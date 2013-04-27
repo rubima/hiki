@@ -23,7 +23,7 @@ class PreBasicAuth
   end
 
   def call(env)
-    if env["REQUEST_URI"] =~ /(pre-|prep-)/
+    if /prep?-/ =~ env["REQUEST_URI"]
       @authenticator.call(env)
     else
       @app.call(env)
