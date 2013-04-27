@@ -3,6 +3,7 @@
 # Copyright (C) 2004-2005 Kazuhiko <kazuhiko@fdiary.net>
 
 require 'cgi' unless Object.const_defined?(:Rack)
+require 'cgi/util'
 require 'nkf'
 
 module Hiki
