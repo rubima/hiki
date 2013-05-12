@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # $Id: test_interwiki.rb,v 1.2 2005-06-28 05:39:09 fdiary Exp $
 
-require 'test/unit'
+require 'test_helper'
 require 'hiki/interwiki'
 
 class InterWiki_Unit_Tests < Test::Unit::TestCase
@@ -26,15 +26,9 @@ EOF
   end
 
   def test_interwiki_found_sjis
-    if Object.const_defined?(:Encoding)
-      assert_equal(['http://hikiwiki.org/ja/?%83%74%83%8D%83%93%83%67%83%79%81%5B%83%57',
-                    'Siki:フロントページ'],
-                   @interwiki.interwiki('Siki', 'フロントページ'))
-    else
-      assert_equal(['http://hikiwiki.org/ja/?%83t%83%8D%83%93%83g%83y%81%5B%83W',
-                    'Siki:フロントページ'],
-                   @interwiki.interwiki('Siki', 'フロントページ'))
-    end
+    assert_equal(['http://hikiwiki.org/ja/?%83t%83%8D%83%93%83g%83y%81%5B%83W',
+                  'Siki:フロントページ'],
+                 @interwiki.interwiki('Siki', 'フロントページ'))
   end
 
   def test_interwiki_found_utf8
