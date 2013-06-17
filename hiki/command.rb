@@ -228,6 +228,10 @@ module Hiki
       data[:last_modified]  = @db.get_last_update( @p )
       data[:page_attribute] = @plugin.page_attribute_proc
 
+      if !@plugin.auth? && @db.get_attribute(@p, :keyword).include?('auth')
+        data[:body] = ""
+      end
+
       generate_page( data )
     end
 
