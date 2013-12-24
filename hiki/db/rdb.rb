@@ -47,7 +47,7 @@ module Hiki
 
       revisions = @db[:page_backup].where(wiki: @wiki, name: page).select(:revision).to_a.map{|record| record[:revision]}
       revision = revisions.empty? ? 1 : revisions.max + 1
-      @db[:page_backup].insert(body: body, last_modified: last_modified, wiki: @wiki, name: page, revision: revision)
+      @db[:page_backup].insert(body: body, last_modified: last_modified, wiki: @wiki, name: page, editor: @user, revision: revision)
 
       record = @db[:page].where(wiki: @wiki, name: page)
       if record.first
