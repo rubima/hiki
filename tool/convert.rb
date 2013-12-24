@@ -39,9 +39,11 @@ def convert(data_path, database_class, input_encoding, output_encoding, nkf)
   db = database_class.new(config)
   db.pages.each do |page|
     begin
-      old_page = page
+      old_page = page.force_encoding(input_encoding)
       new_page = encode(old_page, input_encoding, output_encoding, nkf)
       print "#{Hiki::Util.escape(old_page)} => #{Hiki::Util.escape(new_page)}"
+      convert_attachments(data_path, old_page, new_page, input_encoding, 
+                          output_encoding, nkf)
       old_text = db.load(old_page)
       new_text = encode(old_text, input_encoding, output_encoding, nkf)
       last_update = db.get_last_update(old_page)
@@ -55,8 +57,31 @@ def convert(data_path, database_class, input_encoding, output_encoding, nkf)
       puts ex.backtrace
     end
   end
-  cache_path = data_path + "cache"
+  cache_path = data_path + "cache/parser/"
   FileUtils.rm_rf(cache_path)
+end
+
+def convert_attachments(data_path, old_page, new_page, input_encoding,
+                        output_encoding, nkf)
+  attach_path = data_path + "cache/attach/"
+  escaped_old_page = Hiki::Util.escape(old_page)
+  escaped_new_page = Hiki::Util.escape(new_page)
+  old_attachments_dir = attach_path + escaped_old_page
+  new_attachments_dir = attach_path + escaped_new_page
+  if old_attachments_dir.exist?
+    Dir.glob("#{old_attachments_dir}/*").each do |old_file_fullpath|
+      old_file = File.basename(old_file_fullpath)
+      new_file = Hiki::Util.escape(encode(Hiki::Util.unescape(old_file),
+                                          input_encoding, output_encoding, nkf))
+      new_file_fullpath = "#{old_attachments_dir}/#{new_file}"
+      if old_file != new_file
+        FileUtils.mv(old_file_fullpath, new_file_fullpath)
+      end
+    end
+    if escaped_old_page != escaped_new_page
+      FileUtils.mv(old_attachments_dir, new_attachments_dir)
+    end
+  end
 end
 
 def encode(text, input_encoding, output_encoding, nkf)
