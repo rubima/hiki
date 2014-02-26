@@ -8,9 +8,8 @@
   <id>http://magazine.rubyist.net/</id>
   <author>
     <name><![CDATA[RubiMa Editors]]></name>
-    
   </author>
-  
+
   <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0045 号]]></title>
     <link href="http://magazine.rubyist.net/?0045"/>
@@ -20,36 +19,36 @@
 <h1 class="header">Rubyist Magazine 0045 号</h1>
 <p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
 <h2>目次</h2>
-<h3> <a href="./?0045-ForeWord">巻頭言</a></h3>
-<p>書いた人：るびま編集長 高橋征義</p>
-<p>編集長からの 0045 号発行の挨拶です。(難易度：高)</p>
-<h3> <a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<h3><a href="./?0045-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br/>
+編集長からの 0045 号発行の挨拶です。(難易度：高)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
 <p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
-<h3> <a href="./?0045-Hotlinks">Rubyist Hotlinks 【第 34 回】 大場さん夫妻 後編</a></h3>
+<h3><a href="./?0045-Hotlinks">Rubyist Hotlinks 【第 34 回】 大場さん夫妻 後編</a></h3>
 <p>Rubyist へのインタビュー企画。今回は<a href="./?0044-Hotlinks">前編</a>に続いて大場さん夫妻にお話を伺いました。(難易度：長篠の戦い)</p>
-<h3> <a href="./?0045-RubyWorld_Conference_2013_report">RubyWorld Conference 2013 参加レポート</a></h3>
-<p>書いた人：<a href="https://twitter.com/miyohide" class="external">@miyohide</a> (難易度：松江)</p>
-<p>RubyWorld Conference 2013 の参加レポートです。</p>
-<h3> <a href="./?0045-SetupDevelopmentEnvWIthVagrantAndChefSolo">vagrantとchef-soloを使った開発環境の構築</a></h3>
-<p>書いた人：春山 誠さん (<a href="http://twitter.com/Spring_MT" class="external">@Spring_MT</a>)</p>
-<p>vagrant と chef-solo を使って開発環境の構築を自動化する方法、そしてその運用上の注意点などを解説します。 (難易度：楽をしよう)</p>
-<h3> <a href="./?0045-RubyConf2013">RubyConf 2013 参加レポート</a></h3>
-<p>書いた人： 菅井祐太朗 (<a href="https://twitter.com/hokkai7go" class="external">@hokkai7go</a>)</p>
-<p>RubyConf2013 の参加レポートです。 (難易度：マイアミ)</p>
-<h3> <a href="./?0045-PuppetBook">入門 Puppet ダイジェスト</a></h3>
-<p>書いた人：hsbt さん (<a href="http://twitter.com/hsbt" class="external">@hsbt</a>)</p>
-<p>あんちぽさんの「入門 puppet」のダイジェスト版を記事として書き起こしたものです。 (難易度 : 操り人形)</p>
-<h3> <a href="./?0045-KansaiRubyKaigi05Report">RegionalRubyKaigi レポート (41) 関西 Ruby 会議 05</a></h3>
-<p>書いた人 : 関西 Ruby 会議レポート班(<a href="https://twitter.com/muryoimpl" class="external">@muryoimpl</a>)</p>
-<p>2013 年 8 月 31 日に大阪で開催された 関西 Ruby 会議 05 の報告です。(難易度：survival )</p>
-<h3> <a href="./?0045-TochigiRubyKaigi05Report">RegionalRubyKaigi レポート (42) とちぎ Ruby 会議 05</a></h3>
-<p>書いた人 : とちぎ Ruby 会議レポート班</p>
-<p>2013 年 9 月 21 日にとちぎで開催された とちぎ Ruby 会議 05 の報告です。(難易度：formal and casual )</p>
-<h3> <a href="./?0045-RubyistMagazineRanking">るびまアクセスランキング Vol.45</a></h3>
+<h3><a href="./?0045-RubyWorld_Conference_2013_report">RubyWorld Conference 2013 参加レポート</a></h3>
+<p>書いた人：<a href="https://twitter.com/miyohide" class="external">@miyohide</a> (難易度：松江)<br/>
+RubyWorld Conference 2013 の参加レポートです。</p>
+<h3><a href="./?0045-SetupDevelopmentEnvWIthVagrantAndChefSolo">vagrantとchef-soloを使った開発環境の構築</a></h3>
+<p>書いた人：春山 誠さん (<a href="http://twitter.com/Spring_MT" class="external">@Spring_MT</a>)<br/>
+vagrant と chef-solo を使って開発環境の構築を自動化する方法、そしてその運用上の注意点などを解説します。 (難易度：楽をしよう)</p>
+<h3><a href="./?0045-RubyConf2013">RubyConf 2013 参加レポート</a></h3>
+<p>書いた人：菅井祐太朗 (<a href="https://twitter.com/hokkai7go" class="external">@hokkai7go</a>)<br/>
+RubyConf2013 の参加レポートです。 (難易度：マイアミ)</p>
+<h3><a href="./?0045-PuppetBook">入門 Puppet ダイジェスト</a></h3>
+<p>書いた人：hsbt さん (<a href="http://twitter.com/hsbt" class="external">@hsbt</a>)<br/>
+あんちぽさんの「入門 puppet」のダイジェスト版を記事として書き起こしたものです。 (難易度 : 操り人形)</p>
+<h3><a href="./?0045-KansaiRubyKaigi05Report">RegionalRubyKaigi レポート (41) 関西 Ruby 会議 05</a></h3>
+<p>書いた人 : 関西 Ruby 会議レポート班(<a href="https://twitter.com/muryoimpl" class="external">@muryoimpl</a>)<br/>
+2013 年 8 月 31 日に大阪で開催された 関西 Ruby 会議 05 の報告です。(難易度：survival )</p>
+<h3><a href="./?0045-TochigiRubyKaigi05Report">RegionalRubyKaigi レポート (42) とちぎ Ruby 会議 05</a></h3>
+<p>書いた人 : とちぎ Ruby 会議レポート班<br/>
+2013 年 9 月 21 日にとちぎで開催された とちぎ Ruby 会議 05 の報告です。(難易度：formal and casual )</p>
+<h3><a href="./?0045-RubyistMagazineRanking">るびまアクセスランキング Vol.45</a></h3>
 <p>45 号から直近 1 ヶ月間のるびまの記事のアクセスランキングです。</p>
-<h3> <a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
 <p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本 Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
-<h3> <a href="./?0045-EditorsNote">0045 号 編集後記</a></h3>
+<h3><a href="./?0045-EditorsNote">0045 号 編集後記</a></h3>
 <h2>次号予告</h2>
 <p>次号は 2014 年 3 月頃にリリースする予定です。</p>
 <h3>掲載予定記事</h3>
@@ -71,7 +70,7 @@
 <p>連絡先：<a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0044 号]]></title>
     <link href="http://magazine.rubyist.net/?0044"/>
@@ -81,38 +80,38 @@
 <h1 class="header">Rubyist Magazine 0044 号</h1>
 <p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
 <h2>目次</h2>
-<h3> <a href="./?0044-ForeWord">巻頭言</a></h3>
-<p>書いた人：るびま編集長 高橋征義</p>
-<p>編集長からの 0044 号発行の挨拶です。(難易度：高)</p>
-<h3> <a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<h3><a href="./?0044-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br/>
+編集長からの 0044 号発行の挨拶です。(難易度：高)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
 <p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
-<h3> <a href="./?0044-Hotlinks">Rubyist Hotlinks 【第 33 回】 大場さん夫妻 前編</a></h3>
+<h3><a href="./?0044-Hotlinks">Rubyist Hotlinks 【第 33 回】 大場さん夫妻 前編</a></h3>
 <p>Rubyist へのインタビュー企画。今回は大場さん夫妻にお話を伺いました。(難易度：生きねば)</p>
-<h3> <a href="./?0044-Comments">【九周年記念企画】 Rubyist Magazine へのたより</a></h3>
+<h3><a href="./?0044-Comments">【九周年記念企画】 Rubyist Magazine へのたより</a></h3>
 <p>九周年記念。読者の方々と編集者からコメントをいただきました。(難易度：九周年)</p>
-<h4><a name="l5"> </a> <a href="./?0044-EditorComment">Rubyist Magazine 九周年</a></h4>
-<p>書いた人 : 郡司啓 (<a href="https://twitter.com/gunjisatoshi" class="external">@gunjisatoshi</a>)</p>
-<p>おかげさまで Rubyist Magazine は九周年を迎えました。そこで、今年 1 年間、およびこれまでのるびまについてまとめ、今後について考えてみたいと思います。 (難易度：継続)</p>
-<h3> <a href="./?0044-FluentdV11NewFeatures">Fluentd v11 の噂</a></h3>
-<p>書いた人： 瀬尾 直利 (<a href="https://twitter.com/sonots" class="external">@sonots</a>)</p>
-<p>ログ収集・活用の基盤となり、プラグイン拡張も容易な Fluentd は近年注目を集めているツールの一つです。今回は、きたる次期バージョンの魅力的な新機能をご紹介頂きました。 (難易度：中)</p>
-<h3> <a href="./?0044-CRubyCommittersWhosWho2013">CRuby Committers Who&#39;s Who in 2013</a></h3>
-<p>書いた人： 近永智之 (<a href="https://twitter.com/nagachika" class="external">@nagachika</a>)</p>
-<p>2013 年 5 月 30 日から 6 月 1 日にかけて東京で開催された RubyKaigi 2013 での発表「 CRuby Committers Who's Who in 2013 」の内容を再現・加筆したものです。 (難易度： 中 〜 高 )</p>
-<h3> <a href="./?0044-GuestTalk">他言語からの訪問 【第 3 回】 Perl</a></h3>
-<p>書いた人： たなべすなお (<a href="https://twitter.com/sunaot" class="external">@sunaot</a>)</p>
-<p>前回の Groovy から間が空いてしまいましたが、連載「他言語からの訪問」が帰ってきました。この連載は Ruby 以外の言語を日常的に利用している人に、（Ruby との違いや共通点を踏まえつつ）その言語を解説いただくものです。今回は Ruby の先輩にあたる Perl です。Perl でのオブジェクト指向プログラミングを中心にご紹介します。(難易度 : 中)</p>
-<h3> <a href="./?0044-TokyuRubyKaigi06Report">RegionalRubyKaigi レポート (39) Tokyu Ruby 会議 06</a></h3>
-<p>書いた人 : TokyuRuby 会議 06 実行委員会</p>
-<p>2013 年 6 月に東京で開催された TokyuRuby 会議 06 の報告です。(難易度：プレモル )</p>
-<h3> <a href="./?0044-OkayamaRubyKaigi02Report">RegionalRubyKaigi レポート (40) 岡山 Ruby 会議 02</a></h3>
-<p>書いた人 : 岡山 Ruby 会議 02 実行委員会</p>
-<p>2013 年 7 月に岡山で開催された 岡山 Ruby 会議 02 の報告です。(難易度：【いろいろ】)</p>
-<h3> <a href="./?0044-RubyistMagazineRanking">るびまアクセスランキング Vol.44</a></h3>
+<h4><a href="./?0044-EditorComment">Rubyist Magazine 九周年</a></h4>
+<p>書いた人 : 郡司啓 (<a href="https://twitter.com/gunjisatoshi" class="external">@gunjisatoshi</a>)<br/>
+おかげさまで Rubyist Magazine は九周年を迎えました。そこで、今年 1 年間、およびこれまでのるびまについてまとめ、今後について考えてみたいと思います。 (難易度：継続)</p>
+<h3><a href="./?0044-FluentdV11NewFeatures">Fluentd v11 の噂</a></h3>
+<p>書いた人： 瀬尾 直利 (<a href="https://twitter.com/sonots" class="external">@sonots</a>)<br/>
+ログ収集・活用の基盤となり、プラグイン拡張も容易な Fluentd は近年注目を集めているツールの一つです。今回は、きたる次期バージョンの魅力的な新機能をご紹介頂きました。 (難易度：中)</p>
+<h3><a href="./?0044-CRubyCommittersWhosWho2013">CRuby Committers Who&#39;s Who in 2013</a></h3>
+<p>書いた人： 近永智之 (<a href="https://twitter.com/nagachika" class="external">@nagachika</a>)<br/>
+2013 年 5 月 30 日から 6 月 1 日にかけて東京で開催された RubyKaigi 2013 での発表「 CRuby Committers Who's Who in 2013 」の内容を再現・加筆したものです。 (難易度： 中 〜 高 )</p>
+<h3><a href="./?0044-GuestTalk">他言語からの訪問 【第 3 回】 Perl</a></h3>
+<p>書いた人： たなべすなお (<a href="https://twitter.com/sunaot" class="external">@sunaot</a>)<br/>
+前回の Groovy から間が空いてしまいましたが、連載「他言語からの訪問」が帰ってきました。この連載は Ruby 以外の言語を日常的に利用している人に、（Ruby との違いや共通点を踏まえつつ）その言語を解説いただくものです。今回は Ruby の先輩にあたる Perl です。Perl でのオブジェクト指向プログラミングを中心にご紹介します。(難易度 : 中)</p>
+<h3><a href="./?0044-TokyuRubyKaigi06Report">RegionalRubyKaigi レポート (39) Tokyu Ruby 会議 06</a></h3>
+<p>書いた人 : TokyuRuby 会議 06 実行委員会<br/>
+2013 年 6 月に東京で開催された TokyuRuby 会議 06 の報告です。(難易度：プレモル )</p>
+<h3><a href="./?0044-OkayamaRubyKaigi02Report">RegionalRubyKaigi レポート (40) 岡山 Ruby 会議 02</a></h3>
+<p>書いた人 : 岡山 Ruby 会議 02 実行委員会<br/>
+2013 年 7 月に岡山で開催された 岡山 Ruby 会議 02 の報告です。(難易度：【いろいろ】)</p>
+<h3><a href="./?0044-RubyistMagazineRanking">るびまアクセスランキング Vol.44</a></h3>
 <p>44号から直近1ヶ月間のるびまの記事のアクセスランキングです。</p>
-<h3> <a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
 <p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本 Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
-<h3> <a href="./?0044-EditorsNote">0044 号 編集後記</a></h3>
+<h3><a href="./?0044-EditorsNote">0044 号 編集後記</a></h3>
 <h2>次号予告</h2>
 <p>次号は 2013 年 12 月頃にリリースする予定です。</p>
 <h3>掲載予定記事</h3>
@@ -134,7 +133,7 @@
 <p>連絡先：<a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0043 号]]></title>
     <link href="http://magazine.rubyist.net/?0043"/>
@@ -144,42 +143,42 @@
 <h1 class="header">Rubyist Magazine 0043 号</h1>
 <p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
 <h2>目次</h2>
-<h3> <a href="./?0043-ForeWord">巻頭言</a></h3>
-<p>書いた人：るびま編集長 高橋征義</p>
-<p>編集長からの 0043 号発行の挨拶です。(難易度：高)</p>
-<h3> <a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<h3><a href="./?0043-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br/>
+編集長からの 0043 号発行の挨拶です。(難易度：高)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
 <p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
-<h3> <a href="./?0043-CodePuzzle">Ruby でナゾ解き？ 任天堂 Code Puzzle 解説＆裏話</a></h3>
-<p>書いた人: 任天堂株式会社ネットワーク開発運用部 Code Puzzle 作問担当者</p>
-<p>RubyKaigi 2013 の会場にて配られていた、Ruby コードが書かれた謎のチラシ。あのプログラミングパズルを皆さんはどこまで解けたでしょうか？　今回、なんと任天堂の中の人が直々に企画実施の経緯やこだわり、問題づくりの裏話などをお話してくださいました。(難易度：任天堂) <strong>※記事後半から問題のネタバレあり、注意</strong></p>
-<h3> <a href="./?0043-TRICK2013">TRICK2013 開催報告＆入賞作品紹介</a></h3>
-<p>書いた人： 遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)</p>
-<p>RubyKaigi 2013 内で結果発表があった TRICK 2013 は、Ruby コードの "変態度" を競うという異次元の審査基準を持ったコンテストです。 はてさて、一体どんな作品が選ばれたのでしょうか。(難易度：超絶技巧)</p>
-<h3> <a href="./?0043-BeALibraryDeveloper">ライブラリー開発者になろう</a></h3>
-<p>書いた人: 須藤功平 (<a href="https://github.com/kou" class="external">@kou</a>)</p>
-<p>ライブラリーの開発者となることで、よいソフトウェア開発者になるための習慣を身に着けることができます。本記事は今年の RubyKaigi 2013 で須藤さんが発表された「Be a library developer!」の内容にご本人から補足をいただいたものです。(難易度：中)</p>
-<h3> <a href="./?0043-RubyKaigi2013">RubyKaigi 2013 レポート</a></h3>
-<p>書いた人 : RubyKaigi 2013 るびまレポートスタッフ</p>
-<p>2013 年 5 月 30 日 から 6 月 1 日 に開催された RubyKaigi 2013 のレポートです。(難易度：働いたら負け)</p>
-<h3> <a href="./?0043-Railsberry2013AndRailsConf2013">Railsberry 2013 And RailsConf 2013</a></h3>
-<p>書いた人：つじたさとみ (<a href="http://twitter.com/satomicchy" class="external">@satomicchy</a>)</p>
-<p>2013 年 4 月に開催された Railsberry 2013, RailsConf 2013 と Seattle.rb への参加記です。(難易度：:airplane:)</p>
-<h3> <a href="./?0043-RubyMotionKaigi2013Report">RubyMotion Kaigi 2013 レポート</a></h3>
-<p>書いた人 : 海老沢 聡 (<a href="https://twitter.com/satococoa" class="external">@satococoa</a>)</p>
-<p>RubyMotion は Ruby で iOS アプリケーションを作るための仕組みです。この記事は、2013 年 5 月 29 日に開催された RubyMotion Kaigi 2013 の模様をレポートします。(難易度：中)</p>
-<h3> <a href="./?0043-RedDotRubyConf2013">RedDotRubyConf 2013 旅行記</a></h3>
-<p>書いた人 : hsbt (<a href="https://twitter.com/hsbt" class="external">@hsbt</a>)</p>
-<p>2013 年 6 月にシンガポールで開催された RedDotRubyConf 2013 の旅行記です。(難易度：中)</p>
-<h3> <a href="./?0043-EuRuKo2013">EuRuKo 2013 参加レポート</a></h3>
-<p>書いた人 : 郡司啓 (<a href="https://twitter.com/gunjisatoshi" class="external">@gunjisatoshi</a>)</p>
-<p>2013 年 6 月にギリシャのアテネで開催された EuRuKo 2013 の参加レポートです。(難易度：787)</p>
-<h3> <a href="./?0043-KyushuRubyKaigi02Report">RegionalRubyKaigi レポート (38) 九州 Ruby 会議 02</a></h3>
-<p>書いた人：九州 Ruby 会議 02 実行委員会</p>
-<p>2013 年 4 月に福岡で開催された九州 Ruby 会議 02 の報告です。(難易度：いろいろ)</p>
-<h3> <a href="./?0043-BookPerfectRuby">書籍紹介 『パーフェクト Ruby』</a></h3>
-<p>書いた人：ryopeko (<a href="https://twitter.com/ryopeko" class="external">@ryopeko</a>)</p>
-<p>2013 年 8 月に発売されるパーフェクトシリーズの Ruby 本「パーフェクト Ruby」の紹介です。(難易度：完全無欠)</p>
-<h3> <a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<h3><a href="./?0043-CodePuzzle">Ruby でナゾ解き？ 任天堂 Code Puzzle 解説＆裏話</a></h3>
+<p>書いた人: 任天堂株式会社ネットワーク開発運用部 Code Puzzle 作問担当者<br/>
+RubyKaigi 2013 の会場にて配られていた、Ruby コードが書かれた謎のチラシ。あのプログラミングパズルを皆さんはどこまで解けたでしょうか？　今回、なんと任天堂の中の人が直々に企画実施の経緯やこだわり、問題づくりの裏話などをお話してくださいました。(難易度：任天堂) <strong>※記事後半から問題のネタバレあり、注意</strong></p>
+<h3><a href="./?0043-TRICK2013">TRICK2013 開催報告＆入賞作品紹介</a></h3>
+<p>書いた人： 遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)<br/>
+RubyKaigi 2013 内で結果発表があった TRICK 2013 は、Ruby コードの "変態度" を競うという異次元の審査基準を持ったコンテストです。 はてさて、一体どんな作品が選ばれたのでしょうか。(難易度：超絶技巧)</p>
+<h3><a href="./?0043-BeALibraryDeveloper">ライブラリー開発者になろう</a></h3>
+<p>書いた人: 須藤功平 (<a href="https://github.com/kou" class="external">@kou</a>)<br/>
+ライブラリーの開発者となることで、よいソフトウェア開発者になるための習慣を身に着けることができます。本記事は今年の RubyKaigi 2013 で須藤さんが発表された「Be a library developer!」の内容にご本人から補足をいただいたものです。(難易度：中)</p>
+<h3><a href="./?0043-RubyKaigi2013">RubyKaigi 2013 レポート</a></h3>
+<p>書いた人 : RubyKaigi 2013 るびまレポートスタッフ<br/>
+2013 年 5 月 30 日 から 6 月 1 日 に開催された RubyKaigi 2013 のレポートです。(難易度：働いたら負け)</p>
+<h3><a href="./?0043-Railsberry2013AndRailsConf2013">Railsberry 2013 And RailsConf 2013</a></h3>
+<p>書いた人：つじたさとみ (<a href="http://twitter.com/satomicchy" class="external">@satomicchy</a>)<br/>
+2013 年 4 月に開催された Railsberry 2013, RailsConf 2013 と Seattle.rb への参加記です。(難易度：:airplane:)</p>
+<h3><a href="./?0043-RubyMotionKaigi2013Report">RubyMotion Kaigi 2013 レポート</a></h3>
+<p>書いた人 : 海老沢 聡 (<a href="https://twitter.com/satococoa" class="external">@satococoa</a>)<br/>
+RubyMotion は Ruby で iOS アプリケーションを作るための仕組みです。この記事は、2013 年 5 月 29 日に開催された RubyMotion Kaigi 2013 の模様をレポートします。(難易度：中)</p>
+<h3><a href="./?0043-RedDotRubyConf2013">RedDotRubyConf 2013 旅行記</a></h3>
+<p>書いた人 : hsbt (<a href="https://twitter.com/hsbt" class="external">@hsbt</a>)<br/>
+2013 年 6 月にシンガポールで開催された RedDotRubyConf 2013 の旅行記です。(難易度：中)</p>
+<h3><a href="./?0043-EuRuKo2013">EuRuKo 2013 参加レポート</a></h3>
+<p>書いた人 : 郡司啓 (<a href="https://twitter.com/gunjisatoshi" class="external">@gunjisatoshi</a>)<br/>
+2013 年 6 月にギリシャのアテネで開催された EuRuKo 2013 の参加レポートです。(難易度：787)</p>
+<h3><a href="./?0043-KyushuRubyKaigi02Report">RegionalRubyKaigi レポート (38) 九州 Ruby 会議 02</a></h3>
+<p>書いた人：九州 Ruby 会議 02 実行委員会<br/>
+2013 年 4 月に福岡で開催された九州 Ruby 会議 02 の報告です。(難易度：いろいろ)</p>
+<h3><a href="./?0043-BookPerfectRuby">書籍紹介 『パーフェクト Ruby』</a></h3>
+<p>書いた人：ryopeko (<a href="https://twitter.com/ryopeko" class="external">@ryopeko</a>)<br/>
+2013 年 8 月に発売されるパーフェクトシリーズの Ruby 本「パーフェクト Ruby」の紹介です。(難易度：完全無欠)</p>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
 <p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本 Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
 <h3> <a href="./?0043-EditorsNote">0043 号 編集後記</a></h3>
 <h2>次号予告</h2>
@@ -203,7 +202,7 @@
 <p>連絡先：<a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0042 号]]></title>
     <link href="http://magazine.rubyist.net/?0042"/>
@@ -213,43 +212,43 @@
 <h1 class="header">Rubyist Magazine 0042 号</h1>
 <p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
 <h2>目次</h2>
-<h3> <a href="./?0042-ForeWord">巻頭言</a></h3>
-<p>書いた人：るびま編集長 高橋征義</p>
-<p>編集長からの 0042 号発行の挨拶です。(難易度：高)</p>
-<h3> <a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<h3><a href="./?0042-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br/>
+編集長からの 0042 号発行の挨拶です。(難易度：高)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
 <p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
-<h3> <a href="./?0042-Hotlinks">Rubyist Hotlinks 【第 32 回】 卜部昌平さん</a></h3>
+<h3><a href="./?0042-Hotlinks">Rubyist Hotlinks 【第 32 回】 卜部昌平さん</a></h3>
 <p>Rubyist へのインタビュー企画。今回は卜部さんにお話を伺いました。(難易度：アート)</p>
-<h3> <a href="./?0042-FromCucumberToTurnip">エンドツーエンドテストの自動化は Cucumber から Turnip へ</a></h3>
-<p>書いた人: 福井修 (<a href="https://twitter.com/iR3" class="external">@iR3</a>)</p>
-<p>Cucumber に代わるエンドツーエンドテスト自動化ツール Turnip について紹介します。(難易度：中)</p>
-<h3> <a href="./?0042-MigratingARailsApplicationToRuby200">クックパッドを Ruby 2.0.0 に対応させた話</a></h3>
-<p>書いた人：村田賢太 (<a href="https://twitter.com/mrkn" class="external">@mrkn</a>)</p>
-<p>2013 年 3 月の大江戸 Ruby 会議 03 で発表された『某レシピ共有サイトの Ruby 1.9 対応で大変苦労しました』に加え、さらにその先の Ruby 2.0 対応の部分を盛り込んだ記事です。実サービスで運用されているシステムで行われた、実際的なお話を共有して頂きました。 (難易度：中)</p>
-<h3> <a href="./?0042-FollowUpKirishimaRuby">桐島、Rubyやめるってよ</a></h3>
-<p>書いた人：nari (<a href="https://twitter.com/nari3" class="external">@nari3</a>)</p>
-<p>同じく大江戸 Ruby 会議 03 にて発表された『桐島、Rubyやめるってよ』。ある映画を題材にプログラミングとの向き合い方を考えてみるこのセッションを、るびま誌上に再現しました。(難易度：桐島)</p>
-<h3> <a href="./?0042-Ruby20thAnniversaryPartyReport">Ruby 20 周年記念パーティーレポート ―― プログラミング初心者の運営スタッフが見た Ruby コミュニティ</a></h3>
-<p>書いた人：鈴木雄大(<a href="http://twitter.com/nekogeruge_987" class="external">@nekogeruge_987</a>)</p>
-<p>2013 年 2 月に、Ruby が誕生して 20 周年となったことを記念したユニークなパーティーが開かれました。さわりをお伝えします。(難易度：低)</p>
-<h3> <a href="./?0042-FukuokaRubyKaigi01Report">RegionalRubyKaigi レポート (34) 福岡 Ruby 会議 01</a></h3>
-<p>書いた人：福岡 Ruby 会議 01 実行委員会</p>
-<p>2012 年 12 月に福岡で開催された福岡 Ruby 会議 01 の報告です。(難易度：それぞれ)</p>
-<h3> <a href="./?0042-TokyoRubyKaigi10Report_2nd">RegionalRubyKaigi レポート (35) 東京 Ruby 会議 10 中断後の 3 日目</a></h3>
-<p>書いた人：東京 Ruby 会議 10 実行委員会</p>
-<p>大雪で中断になり、別日程で開催された東京 Ruby 会議 10 の 3 日目の報告です。（難易度：大和田）</p>
-<h3> <a href="./?0042-GunmaRubyKaigi01Report">RegionalRubyKaigi レポート (36) ぐんま Ruby 会議 01</a></h3>
-<p>書いた人：ぐんま Ruby 会議 01 実行委員会</p>
-<p>2013 年 3 月に群馬で開催されたぐんま Ruby 会議 01 の報告です。(難易度：鳥めし弁当)</p>
-<h3> <a href="./?0042-OoedoRubyKaigi03Report">RegionalRubyKaigi レポート (37) 大江戸 Ruby 会議 03</a></h3>
-<p>書いた人：大江戸 Ruby 会議 03 実行委員会</p>
-<p>2013 年 3 月に東京で開催された大江戸 Ruby 会議 03 の報告です。(難易度：いろいろ)</p>
-<h3> <a href="./?0042-RubimaMigrationToRuby2.0">Rubyist Magazine 移行後記</a></h3>
-<p>書いた人：たなべ</p>
-<p>るびまのサーバ移行により、Ruby や Hiki のバージョンアップを行うことができました。本稿は移行プロジェクトがなぜ実施されたのか、どのように進められたのかを紹介し、移行に関わった人への感謝を記します。 (難易度：易)</p>
-<h3> <a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<h3><a href="./?0042-FromCucumberToTurnip">エンドツーエンドテストの自動化は Cucumber から Turnip へ</a></h3>
+<p>書いた人: 福井修 (<a href="https://twitter.com/iR3" class="external">@iR3</a>)<br/>
+Cucumber に代わるエンドツーエンドテスト自動化ツール Turnip について紹介します。(難易度：中)</p>
+<h3><a href="./?0042-MigratingARailsApplicationToRuby200">クックパッドを Ruby 2.0.0 に対応させた話</a></h3>
+<p>書いた人：村田賢太 (<a href="https://twitter.com/mrkn" class="external">@mrkn</a>)<br/>
+2013 年 3 月の大江戸 Ruby 会議 03 で発表された『某レシピ共有サイトの Ruby 1.9 対応で大変苦労しました』に加え、さらにその先の Ruby 2.0 対応の部分を盛り込んだ記事です。実サービスで運用されているシステムで行われた、実際的なお話を共有して頂きました。 (難易度：中)</p>
+<h3><a href="./?0042-FollowUpKirishimaRuby">桐島、Rubyやめるってよ</a></h3>
+<p>書いた人：nari (<a href="https://twitter.com/nari3" class="external">@nari3</a>)<br/>
+同じく大江戸 Ruby 会議 03 にて発表された『桐島、Rubyやめるってよ』。ある映画を題材にプログラミングとの向き合い方を考えてみるこのセッションを、るびま誌上に再現しました。(難易度：桐島)</p>
+<h3><a href="./?0042-Ruby20thAnniversaryPartyReport">Ruby 20 周年記念パーティーレポート ―― プログラミング初心者の運営スタッフが見た Ruby コミュニティ</a></h3>
+<p>書いた人：鈴木雄大(<a href="http://twitter.com/nekogeruge_987" class="external">@nekogeruge_987</a>)<br/>
+2013 年 2 月に、Ruby が誕生して 20 周年となったことを記念したユニークなパーティーが開かれました。さわりをお伝えします。(難易度：低)</p>
+<h3><a href="./?0042-FukuokaRubyKaigi01Report">RegionalRubyKaigi レポート (34) 福岡 Ruby 会議 01</a></h3>
+<p>書いた人：福岡 Ruby 会議 01 実行委員会<br/>
+2012 年 12 月に福岡で開催された福岡 Ruby 会議 01 の報告です。(難易度：それぞれ)</p>
+<h3><a href="./?0042-TokyoRubyKaigi10Report_2nd">RegionalRubyKaigi レポート (35) 東京 Ruby 会議 10 中断後の 3 日目</a></h3>
+<p>書いた人：東京 Ruby 会議 10 実行委員会<br/>
+大雪で中断になり、別日程で開催された東京 Ruby 会議 10 の 3 日目の報告です。（難易度：大和田）</p>
+<h3><a href="./?0042-GunmaRubyKaigi01Report">RegionalRubyKaigi レポート (36) ぐんま Ruby 会議 01</a></h3>
+<p>書いた人：ぐんま Ruby 会議 01 実行委員会<br/>
+2013 年 3 月に群馬で開催されたぐんま Ruby 会議 01 の報告です。(難易度：鳥めし弁当)</p>
+<h3><a href="./?0042-OoedoRubyKaigi03Report">RegionalRubyKaigi レポート (37) 大江戸 Ruby 会議 03</a></h3>
+<p>書いた人：大江戸 Ruby 会議 03 実行委員会<br/>
+2013 年 3 月に東京で開催された大江戸 Ruby 会議 03 の報告です。(難易度：いろいろ)</p>
+<h3><a href="./?0042-RubimaMigrationToRuby2.0">Rubyist Magazine 移行後記</a></h3>
+<p>書いた人：たなべ<br/>
+るびまのサーバ移行により、Ruby や Hiki のバージョンアップを行うことができました。本稿は移行プロジェクトがなぜ実施されたのか、どのように進められたのかを紹介し、移行に関わった人への感謝を記します。 (難易度：易)</p>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
 <p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
-<h3> <a href="./?0042-EditorsNote">0042 号 編集後記</a></h3>
+<h3><a href="./?0042-EditorsNote">0042 号 編集後記</a></h3>
 <h2>次号予告</h2>
 <p>次号は 2013 年 8 月頃にリリースする予定です。</p>
 <h3>掲載予定記事</h3>
@@ -270,7 +269,7 @@
 <p>連絡先：<a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a></p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0041 号]]></title>
     <link href="http://magazine.rubyist.net/?0041"/>
@@ -280,64 +279,64 @@
 <h1 class="header">Rubyist Magazine 0041 号</h1>
 <p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
 <h2>目次</h2>
-<h3> <a href="./?0041-ForeWord">巻頭言</a></h3>
-<p>書いた人：るびま編集長 高橋征義</p>
-<p>編集長からの 0041 号発行の挨拶です。(難易度：高)</p>
-<h3> <a href="./?0041-Hotlinks">Rubyist Hotlinks 【第 31 回】 樽家昌也さん</a></h3>
+<h3><a href="./?0041-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br/>
+編集長からの 0041 号発行の挨拶です。(難易度：高)</p>
+<h3><a href="./?0041-Hotlinks">Rubyist Hotlinks 【第 31 回】 樽家昌也さん</a></h3>
 <p>Rubyist へのインタビュー企画。今回はたるいさんにお話を伺いました。(難易度：ポケコン)</p>
-<h3> <a href="./?0041-200Special">Ruby 2.0.0 リリース特集</a></h3>
-<p>編集：ささだ</p>
-<p>2013 年 2 月 24 日に Ruby 2.0.0 がリリースされました。しかし、何が変わったか、あまり情報がまとまっていないのが実情です。そこで、Ruby 開発者の人たちに Ruby 2.0.0 の機能や改善についてご紹介頂き、特集記事としてまとめました。</p>
+<h3><a href="./?0041-200Special">Ruby 2.0.0 リリース特集</a></h3>
+<p>編集：ささだ<br/>
+2013 年 2 月 24 日に Ruby 2.0.0 がリリースされました。しかし、何が変わったか、あまり情報がまとまっていないのが実情です。そこで、Ruby 開発者の人たちに Ruby 2.0.0 の機能や改善についてご紹介頂き、特集記事としてまとめました。</p>
 <p>このページは各記事の紹介と、著名 Rubyist によるコメントを掲載しています。(難易度：移行は 1.8-&gt;1.9 より全然簡単）</p>
-<h4><a name="l4"> </a> <a href="./?0041-200Special-release">Ruby 2.0.0 リリースを振り返って</a></h4>
-<p>書いた人：遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)</p>
-<p>Ruby 2.0.0 リリースまでの道のりと反省点を簡単に綴った記事です。（難易度：低）</p>
-<h4><a name="l5"> </a> <a href="./?0041-200Special-kwarg">Ruby 2.0.0 のキーワード引数</a></h4>
-<p>書いた人：遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)</p>
-<p>Ruby 2.0.0 で導入された新機能、キーワード引数を簡単に紹介します。（難易度：低）</p>
-<h4><a name="l6"> </a> <a href="./?0041-200Special-lazy">無限リストを map 可能にする Enumerable#lazy</a></h4>
-<p>書いた人：原 悠</p>
-<p>Ruby 2.0 で導入された Enumerable#lazy というメソッドおよび、その返り値である Enumerator::Lazy について解説します。(難易度：中)</p>
-<h4><a name="l7"> </a> <a href="./?0041-200Special-refinement">Refinementsとは何だったのか</a></h4>
-<p>書いた人：前田修吾 (<a href="https://twitter.com/shugomaeda" class="external">@shugomaeda</a>)</p>
-<p>Ruby 2.0 に入るはずだった Refinements とはいったい何だったのか解説します。(難易度：恨)</p>
-<h4><a name="l8"> </a> <a href="./?0041-200Special-dtrace">Ruby 2.0.0 の DTrace の紹介</a></h4>
-<p>書いた人：Aaron Patterson (<a href="https://twitter.com/tenderlove" class="external">@tenderlove</a>) 、翻訳：遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)</p>
-<p>Ruby 2.0 での DTrace probe の基本的な使い方をご紹介します。(難易度：中)</p>
-<h4><a name="l9"> </a> <a href="./?0041-200Special-gc">Ruby 2.0.0 の GC 改善</a></h4>
-<p>書いた人： nari (<a href="https://twitter.com/nari3" class="external">@nari3</a>)</p>
-<p>Ruby 2.0.0 でおこなった GC 改善の内容を簡単に紹介します。（難易度: 中）</p>
-<h4><a name="l10"> </a> <a href="./?0041-200Special-require">Ruby 2.0.0 の require</a></h4>
-<p>書いた人：樽家昌也 (Masaya TARUI)</p>
-<p>Ruby 2.0 で行われた require の高速化について紹介します。(難易度：中)</p>
-<h4><a name="l11"> </a> <a href="./?0041-200Special-note">Ruby 2.0.0 の注意点やその他の新機能</a></h4>
+<h4><a href="./?0041-200Special-release">Ruby 2.0.0 リリースを振り返って</a></h4>
+<p>書いた人：遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)<br/>
+Ruby 2.0.0 リリースまでの道のりと反省点を簡単に綴った記事です。（難易度：低）</p>
+<h4><a href="./?0041-200Special-kwarg">Ruby 2.0.0 のキーワード引数</a></h4>
+<p>書いた人：遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)<br/>
+Ruby 2.0.0 で導入された新機能、キーワード引数を簡単に紹介します。（難易度：低）</p>
+<h4><a href="./?0041-200Special-lazy">無限リストを map 可能にする Enumerable#lazy</a></h4>
+<p>書いた人：原 悠<br/>
+Ruby 2.0 で導入された Enumerable#lazy というメソッドおよび、その返り値である Enumerator::Lazy について解説します。(難易度：中)</p>
+<h4><a href="./?0041-200Special-refinement">Refinementsとは何だったのか</a></h4>
+<p>書いた人：前田修吾 (<a href="https://twitter.com/shugomaeda" class="external">@shugomaeda</a>)<br/>
+Ruby 2.0 に入るはずだった Refinements とはいったい何だったのか解説します。(難易度：恨)</p>
+<h4><a href="./?0041-200Special-dtrace">Ruby 2.0.0 の DTrace の紹介</a></h4>
+<p>書いた人：Aaron Patterson (<a href="https://twitter.com/tenderlove" class="external">@tenderlove</a>) 、翻訳：遠藤侑介 (<a href="https://twitter.com/mametter" class="external">@mametter</a>)<br/>
+Ruby 2.0 での DTrace probe の基本的な使い方をご紹介します。(難易度：中)</p>
+<h4><a href="./?0041-200Special-gc">Ruby 2.0.0 の GC 改善</a></h4>
+<p>書いた人： nari (<a href="https://twitter.com/nari3" class="external">@nari3</a>)<br/>
+Ruby 2.0.0 でおこなった GC 改善の内容を簡単に紹介します。（難易度: 中）</p>
+<h4><a href="./?0041-200Special-require">Ruby 2.0.0 の require</a></h4>
+<p>書いた人：樽家昌也 (Masaya TARUI)<br/>
+Ruby 2.0 で行われた require の高速化について紹介します。(難易度：中)</p>
+<h4><a href="./?0041-200Special-note">Ruby 2.0.0 の注意点やその他の新機能</a></h4>
 <p>Ruby 2.0.0 の注意点や、他の特筆するべき機能追加についてまとめています。(難易度：中)</p>
-<h4><a name="l12"> </a> <a href="./?0041-200Special-193">Ruby 安定版の今後の保守の見通し</a></h4>
-<p>書いた人: usa (<a href="https://twitter.com/unak" class="external">@unak</a>)</p>
-<p>Ruby 安定版の今後の保守の見通しについて簡単にまとめています。(難易度：継続は難しい)</p>
-<h3> <a href="./?0041-RailsTheBadParts">Ruby on Rails: The Bad Parts</a></h3>
-<p>書いた人 : 浦嶌 啓太さん</p>
-<p>札幌 Ruby 会議 2012 で発表された内容を元に書き起こされた記事です。Rails のレールに乗っていたはずなのに生まれてしまう醜いコードへどのように対処していくかを解説します。（難易度：中）</p>
-<h3> <a href="./?0041-CodePostMortem">Ruby コードの感想戦 【第 2 回】 WikiR</a></h3>
-<p>書いた人 : 関将俊さん</p>
-<p>コードに対しての感想を読み手と書き手が言いあう記事です。今回は書き手側の言い分です。（難易度：辛）</p>
-<h3> <a href="./?0041-YarvManiacs">YARV Maniacs 【第 11 回】 最近の YARV の事情</a></h3>
-<p>書いた人 : ささだ</p>
-<p>YARV: Yet Another RubyVM を解説する連載の久しぶりの掲載。今回は YARV を紹介する 2 つの資料、<a href="http://patshaughnessy.net/ruby-under-a-microscope" class="external">Ruby Under a Microscope</a> (英語) と、Ruby VM アドベントカレンダー (日本語) を紹介します。(難易度：紹介記事は書くのが簡単)</p>
-<h3> <a href="./?0041-Euroko2012">Euroko 2012 参加レポート</a></h3>
-<p>書いた人 : かくたに</p>
-<p>2012/06/01 - 06/02にオランダ、アムステルダムで開催された EuRuKo 2012 の参加レポートです。（難易度：合法）</p>
-<h3> <a href="./?0041-RubyTaiwan2012">RubyConf Taiwan 旅行記</a></h3>
-<p>書いた人 : hsbt</p>
-<p>2012年12月に台湾で開催された RubyTaiwan 2012 の旅行記です。（難易度：中）</p>
-<h3> <a href="./?0041-TokyoRubyKaigi10Report_1st">RegionalRubyKaigi レポート (33) 東京 Ruby 会議 10</a></h3>
-<p>書いた人 : 東京 Ruby 会議 10 実行委員会</p>
-<p>2013 年 1 月に千葉で開催された東京 Ruby 会議 10 の報告です。（難易度：豪雪）</p>
-<h3> <a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<h4><a href="./?0041-200Special-193">Ruby 安定版の今後の保守の見通し</a></h4>
+<p>書いた人: usa (<a href="https://twitter.com/unak" class="external">@unak</a>)<br/>
+Ruby 安定版の今後の保守の見通しについて簡単にまとめています。(難易度：継続は難しい)</p>
+<h3><a href="./?0041-RailsTheBadParts">Ruby on Rails: The Bad Parts</a></h3>
+<p>書いた人 : 浦嶌 啓太さん<br/>
+札幌 Ruby 会議 2012 で発表された内容を元に書き起こされた記事です。Rails のレールに乗っていたはずなのに生まれてしまう醜いコードへどのように対処していくかを解説します。（難易度：中）</p>
+<h3><a href="./?0041-CodePostMortem">Ruby コードの感想戦 【第 2 回】 WikiR</a></h3>
+<p>書いた人 : 関将俊さん<br/>
+コードに対しての感想を読み手と書き手が言いあう記事です。今回は書き手側の言い分です。（難易度：辛）</p>
+<h3><a href="./?0041-YarvManiacs">YARV Maniacs 【第 11 回】 最近の YARV の事情</a></h3>
+<p>書いた人 : ささだ<br/>
+YARV: Yet Another RubyVM を解説する連載の久しぶりの掲載。今回は YARV を紹介する 2 つの資料、<a href="http://patshaughnessy.net/ruby-under-a-microscope" class="external">Ruby Under a Microscope</a> (英語) と、Ruby VM アドベントカレンダー (日本語) を紹介します。(難易度：紹介記事は書くのが簡単)</p>
+<h3><a href="./?0041-Euroko2012">Euroko 2012 参加レポート</a></h3>
+<p>書いた人 : かくたに<br/>
+2012/06/01 - 06/02にオランダ、アムステルダムで開催された EuRuKo 2012 の参加レポートです。（難易度：合法）</p>
+<h3><a href="./?0041-RubyTaiwan2012">RubyConf Taiwan 旅行記</a></h3>
+<p>書いた人 : hsbt<br/>
+2012年12月に台湾で開催された RubyTaiwan 2012 の旅行記です。（難易度：中）</p>
+<h3><a href="./?0041-TokyoRubyKaigi10Report_1st">RegionalRubyKaigi レポート (33) 東京 Ruby 会議 10</a></h3>
+<p>書いた人 : 東京 Ruby 会議 10 実行委員会<br/>
+2013 年 1 月に千葉で開催された東京 Ruby 会議 10 の報告です。（難易度：豪雪）</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
 <p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
-<h3> <a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
 <p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
-<h3> <a href="./?0041-EditorsNote">0041 号 編集後記</a></h3>
+<h3><a href="./?0041-EditorsNote">0041 号 編集後記</a></h3>
 <h2>次号予告</h2>
 <p>次号は 2013 年 5 月頃にリリースする予定です。</p>
 <h3>掲載予定記事</h3>
@@ -358,5 +357,5 @@
 <p>連絡先：<a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a></p>
 ]]></content>
   </entry>
-  
+
 </feed>
