@@ -1,5 +1,5 @@
 # Copyright (C) 2008, KURODA Hiraku <hiraku@hinet.mydns.jp>
-# You can redistribute it and/or modify it under GPL2. 
+# You can redistribute it and/or modify it under GPL2.
 
 require "tmpdir"
 require "fileutils"
@@ -21,10 +21,10 @@ describe Hiki::Filter, "when error raised in filtering" do
       raise "ERROR"
     end
 
-    @conf = stub("conf", :null_object=>true)
-    @cgi = stub("cgi", :null_object=>true)
-    @plugin = stub("plugin", :null_object=>true)
-    @db = stub("db", :null_object=>true)
+    @conf = stub("conf", null_object:true)
+    @cgi = stub("cgi", null_object:true)
+    @plugin = stub("plugin", null_object:true)
+    @db = stub("db", null_object:true)
     Hiki::Filter.init(@conf, @cgi, @plugin, @db)
   end
 
