@@ -4,11 +4,68 @@
   <title><![CDATA[Rubyist Magazine - るびま]]></title>
   <link href="http://magazine.rubyist.net/atom.xml" rel="self"/>
   <link href="http://magazine.rubyist.net/"/>
-  <updated>2013-12-21T23:48:12+09:00</updated>
+  <updated>2014-04-05T04:26:24+09:00</updated>
   <id>http://magazine.rubyist.net/</id>
   <author>
     <name><![CDATA[RubiMa Editors]]></name>
   </author>
+
+  <entry>
+    <title type="html"><![CDATA[Rubyist Magazine 0046 号]]></title>
+    <link href="http://magazine.rubyist.net/?0046"/>
+    <updated>2014-04-05T04:26:24+09:00</updated>
+    <id>http://magazine.rubyist.net/?0046</id>
+    <content type="html"><![CDATA[
+<h1 class="header">Rubyist Magazine 0046 号</h1>
+<p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
+<h2>目次</h2>
+<h3><a href="./?0046-ForeWord">巻頭言</a></h3>
+<p>書いた人 : るびま編集長 高橋征義<br/>
+編集長からの 0046 号発行の挨拶です。(難易度 : 高)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度 : 低)</p>
+<h3><a href="./?0046-SpecialInterviewKosaki">Rubyist インタビュー特別編 小崎資広さん 前編</a></h3>
+<p>Rubyist へのインタビュー企画。今回はいつもの Hotlinks とは別企画の特別編として Linux カーネルと CRuby コア のデュアルコミッタである小崎資広さんにお話を伺いました。(難易度：C)</p>
+<h3><a href="./?0046-RailsAndBackbonejs">Backbone.js on Rails 始めの一歩</a></h3>
+<p>書いた人：<a href="https://twitter.com/joker1007" class="external">@joker1007</a> さん<br/>
+Backbone.js の紹介と、Rails における活用方法についての記事です。 (難易度：中)</p>
+<h3><a href="./?0046-RandexMultibyteGem">Ruby 初心者の新卒エンジニアが gem パッケージ公開に至るまで</a></h3>
+<p>書いた人：<a href="https://twitter.com/deme0607" class="external">@deme0607</a> さん<br/>
+新人エンジニアが業務を通じてオープンソースソフトウェアを公開し、その過程で得られた知見についての記事です。 (難易度：初心大切)</p>
+<h3><a href="./?0046-SingletonClassForBeginners">Ruby 初級者のための class &lt;&lt; self の話 (または特異クラスとメタクラス)</a></h3>
+<p>書いた人：<a href="https://twitter.com/sunaot" class="external">@sunaot</a> さん<br/>
+Ruby 初心者から中級者向けの、特異クラスと特異メソッドに関する解説記事です。 (難易度：低)</p>
+<h3><a href="./?0046-Milkode">Ruby でソースコード検索エンジンの作り方 〜Milkode の内部実装解説〜</a></h3>
+<p>書いた人：<a href="https://twitter.com/ongaeshi" class="external">@ongaeshi</a> さん<br/>
+ソースコード検索エンジン Milkode の紹介と、実装にあたって利用したライブラリに関する記事です。 (難易度：中)</p>
+<h3><a href="./?0046-Present">0046 号 読者プレゼント</a></h3>
+<p>yhara 様のご提供により、『Rubyで作る奇妙なプログラミング言語 第二版』を Rubyist Magazine 読者の方にプレゼントします。 (難易度：当)</p>
+<h3><a href="./?0046-RubyistMagazineRanking">るびまアクセスランキング Vol.46</a></h3>
+<p>46 号から直近 1 ヶ月間のるびまの記事のアクセスランキングです。</p>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本 Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度 : 低)</p>
+<h3><a href="./?0046-EditorsNote">0046 号 編集後記</a></h3>
+<h2>次号予告</h2>
+<p>次号は 2014 年 6 月頃にリリースする予定です。</p>
+<h3>掲載予定記事</h3>
+<ul>
+<li>Rubyist インタビュー特別編 小崎資広さん 後編</li>
+<li>RegionalRubyKaigi レポート</li>
+</ul>
+<h2>おねがい</h2>
+<p>記事へのご意見、ご感想や、「こんな記事が読みたい」、「あの人の記事が読みたい」、といったご希望などがありましたら、下記連絡先までお気軽にお寄せください。</p>
+<p>記事の投稿も随時受け付けております。</p>
+<ul>
+<li>Ruby に関する技術記事・解説記事</li>
+<li>Ruby 活用事例</li>
+<li>Ruby がちょっとでも絡むエッセイ</li>
+<li>Ruby に関するその他</li>
+</ul>
+<p>などを募集しております。何かネタがありましたらご連絡ください。
+また、編集に参加したいというお申し出も大歓迎です。</p>
+<p>連絡先 : <a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
+]]></content>
+  </entry>
 
   <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0045 号]]></title>
