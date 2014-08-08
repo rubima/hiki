@@ -1,4 +1,3 @@
-# $Id: interwiki.rb,v 1.10 2005-12-28 23:42:18 fdiary Exp $
 # Copyright (C) 2002-2003 TAKEUCHI Hitoshi <hitoshi@namaraii.com>
 
 require 'hiki/util'
@@ -25,11 +24,11 @@ module Hiki
         encoding = @interwiki_names[s][:encoding]
         page = case encoding
                when 'sjis'
-                 escape(p.to_sjis)
+                 escape(p.encode("Shift_JIS"))
                when 'euc'
-                 escape(p.to_euc)
+                 escape(p.encode("EUC-JP"))
                when 'utf8'
-                 escape(p.to_utf8)
+                 escape(p.encode("UTF-8"))
                else
                  p
                end

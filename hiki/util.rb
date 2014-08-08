@@ -1,13 +1,8 @@
 # -*- coding: utf-8 -*-
-# $Id: util.rb,v 1.44 2005-12-25 07:03:06 yanagita Exp $
 # Copyright (C) 2002-2003 TAKEUCHI Hitoshi <hitoshi@namaraii.com>
 
 require 'nkf'
-begin
-  require 'cgi/util'
-rescue LoadError
-  require 'cgi'
-end
+require 'cgi/util'
 require 'erb'
 
 require 'docdiff/difference'
@@ -33,26 +28,6 @@ class String
 
   def to_utf8
     NKF.nkf('-m0 -w', self)
-  end
-
-  def escape
-    Hiki::Util.escape(self)
-  end
-
-  def unescape
-    Hiki::Util.unescape(self)
-  end
-
-  def escapeHTML
-    Hiki::Util.escape_html(self)
-  end
-
-  def unescapeHTML
-    Hiki::Util.unescape_html(self)
-  end
-
-  def sanitize
-    self
   end
 
   unless method_defined?(:b)
@@ -306,16 +281,6 @@ EOS
       else
         arr[0...len-2].join('') + '..'
       end
-    end
-
-    # TODO remove this method in future release
-    def euc_to_utf8(str)
-      str.encode("UTF-8", "EUC-JP")
-    end
-
-    # TODO remove this method in future release
-    def utf8_to_euc(str)
-      str.encode("EUC-JP", "UTF-8")
     end
 
     # TODO remove this method in future release

@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
-# $Id: attach.rb,v 1.7 2007-06-24 12:00:11 fdiary Exp $
 # Copyright (C) 2003 TAKEUCHI Hitoshi <hitoshi@namaraii.com>
 #
 # thanks to Kazuhiko, Masao Mutoh, SHIMADA Mitsunobu, Yoshimi, りた
 
-begin
-  require "cgi/util"
-rescue LoadError
-  require 'cgi' # fallback for Ruby1.8
-end
+require "cgi/util"
 
 @options['attach.form'] ||= 'edit'
 
@@ -89,7 +84,7 @@ end
 def attach_flash_anchor(file_name, page = @page)
   image_size = get_image_size(file_name, page)
   s =  %Q!<embed type="application/x-shockwave-flash" src="!
-  s << %Q!#{@conf.cgi_name}#{cmdstr('plugin', "plugin=attach_download;p=#{escape(page)};file_name=#{file_name.escape}")}" !
+  s << %Q!#{@conf.cgi_name}#{cmdstr('plugin', "plugin=attach_download;p=#{escape(page)};file_name=#{escape(file_name)}")}" !
   s << %Q! width="#{image_size[:width]}" height="#{image_size[:height]}" ! if image_size
   s << %Q!>!
 end

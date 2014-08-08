@@ -1,4 +1,3 @@
-# $Id: rss-show.rb,v 1.11 2005-09-26 13:35:05 fdiary Exp $
 # Copyright (C) 2003 TAKEUCHI Hitoshi <hitoshi@namaraii.com>
 
 require 'rss/1.0'
@@ -59,9 +58,9 @@ end
 
 def rss_format_items(items)
   html = "<ul>\n"
-  items.each do |i|
-    page = utf8_to_euc( i.title )
-    url = utf8_to_euc( i.link )
+  items.each do |item|
+    page = item.title
+    url = item.link
     html << "<li>#{make_anchor(h(url), h(unescape_html(page)))}</li>\n"
   end
   html << "</ul>\n"

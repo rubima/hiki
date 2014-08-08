@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# $Id: test_repos_hg.rb,v 1.1 2008-08-06 10:48:25 hiraku Exp $
 # Copyright (C) 2008, KURODA Hiraku <hiraku{@}hinet.mydns.jp>
 # This code is modified from "test/test_repos_git.rb" by Kouhei Sutou
 # You can distribute this under GPL.
@@ -36,7 +35,6 @@ class Repos_Hg_Tests < Test::Unit::TestCase
     write("FooBar", 'foobar')
     @repos.commit('FooBar')
     assert_equal('foobar', read('FooBar'))
-    file = nil
 
     write("FooBar", 'foobar new')
     @repos.commit('FooBar')
@@ -55,7 +53,6 @@ class Repos_Hg_Tests < Test::Unit::TestCase
   end
 
   def test_get_revision
-    rev1 = rev2 = rev3 = nil
     write("HogeHoge", 'hogehoge1')
     Dir.chdir(@text_dir) {hg("add", "HogeHoge")}
     Dir.chdir(@text_dir) {hg("commit", "-m", "First", "HogeHoge")}
