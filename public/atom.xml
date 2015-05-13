@@ -30,7 +30,7 @@ mruby 用のデバッガ「nomitory」についてのご紹介です。(難易�
 <h3><a href="./?0050-Hypermedia">ハイパーメディア：RailsでWeb APIをつくるには、これが足りない (Hypermedia: The Missing Element to Building Sustainable Web APIs in Rails)</a></h3>
 <p>書いた人：川村さん (<a href="https://twitter.com/tkawa" class="external">@tkawa</a>)<br/>
 RubyKaigi 2014 での川村さんの発表「<a href="http://rubykaigi.org/2014/presentation/S-ToruKawamura" class="external">Hypermedia: the Missing Element to Building Adaptable Web APIs in Rails</a>」をご本人により記事として書き起こし、加筆したものです。(難易度：中)</p>
-<h3>a href="./?0050-ECMAScript2015">2015 年の JavaScript と babel の話</a></h3>
+<h3><a href="./?0050-ECMAScript2015">2015 年の JavaScript と babel の話</a></h3>
 <p>書いた人：古川さん (<a href="https://twitter.com/yosuke_furukawa" class="external">@yosuke_furukawa</a>)<br/>
 他言語からの訪問番外編として、2015 年 6 月に ECMAScript として仕様が公開される予定の ECMAScript2015 を紹介する記事です。(難易度：新)</p>
 <h3><a href="./?0050-YochiyochiRbLtEventReport">よちよち.rb みんなで LT デビューしよう会 イベントレポート</a></h3>
