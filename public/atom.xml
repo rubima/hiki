@@ -11,6 +11,60 @@
   </author>
 
   <entry>
+    <title type="html"><![CDATA[Rubyist Magazine 0053 号]]></title>
+    <link href="http://magazine.rubyist.net/?0053"/>
+    <updated>2016-04-03T18:30:00+09:00</updated>
+    <id>http://magazine.rubyist.net/?0053</id>
+    <content type="html"><![CDATA[
+<h1 class="header">Rubyist Magazine 0053 号</h1>
+<p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
+<h2>目次</h2>
+<h3><a href="./?0053-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br />
+編集長からの 0053 号発行の挨拶です。(難易度：Ruby を始めるときはまずはここから)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
+<h3><a href="./?0053-Hotlinks">Rubyist Hotlinks 【第 36 回】 須藤功平さん</a></h3>
+<p>Rubyist へのインタビュー企画。今回は須藤功平さんにお話を伺いました。(難易度：みんな丸くなって)</p>
+<h3><a href="./?0053-YarvManiacs">YARV Maniacs 【第 13 回】 事前コンパイルへの道</a></h3>
+<p>書いた人：ささださん<br />
+<p>RubyKaigi 2015 で発表した Compiling Ruby scripts という発表の話です。(難易度：プリコンパイル)</p>
+<h3><a href="./?0053-TokyuRubyKaigi09Report">RegionalRubyKaigi レポート (56) TokyuRuby 会議 09</a></h3>
+<p>書いた人：五十嵐 邦明さん<br />
+2015 年 8 月に東京で開催された TokyuRuby 会議 09 の報告です。(難易度：いろいろ)</p>
+<h3><a href="./?0053-OoedoRubyKaigi05Report">RegionalRubyKaigi レポート (57) 大江戸 Ruby 会議 05</a></h3>
+<p>書いた人：白土慧さん、高橋一生さん、寺嶋章子さん、橋本諭さん、深谷淳さん<br />
+2015 年 11 月に東京で開催された大江戸 Ruby 会議 05 の報告です。(難易度：いろいろ)</p>
+<h3><a href="./?0053-TRICK2015">TRICK2015 開催報告＆入賞作品紹介</a></h3>
+<p>「変」なプログラムを書いて競い合うプログラミングコンテスト、TRICK2015の開催報告と入賞作品紹介です。(難易度：変)</p>
+<h3><a href="./?0053-RubyistMagazineRanking">るびまアクセスランキング Vol.53</a></h3>
+<p>0052 号リリース時点から 0053 号リリース直前までの、るびまの記事のアクセスランキングです。</p>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本 Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
+<h3><a href="./?0053-Present">0053 号 読者プレゼント</a></h3>
+<p>技術評論社さんの提供により『あなたの知らない超絶技巧プログラミングの世界』を、オライリー・ジャパンさんの提供により『メタプログラミング Ruby 第 2 版』を、 Rubyist Magazine 読者の方にプレゼントします。 (難易度：メタ技巧)</p>
+<h3><a href="./?0053-EditorsNote">0053 号 編集後記</a></h3>
+<h2>次号予告</h2>
+<p>次号は 2016 年 8 月頃にリリースする予定です。</p>
+<h3>掲載予定記事</h3>
+<ul>
+<li>RegionalRubyKaigi レポート</li>
+</ul>
+<h2>おねがい</h2>
+<p>記事へのご意見、ご感想や、「こんな記事が読みたい」、「あの人の記事が読みたい」、といったご希望などがありましたら、下記連絡先までお気軽にお寄せください。</p>
+<p>記事の投稿も随時受け付けております。</p>
+<ul>
+<li>Ruby に関する技術記事・解説記事</li>
+<li>Ruby 活用事例</li>
+<li>Ruby がちょっとでも絡むエッセイ</li>
+<li>Ruby に関するその他</li>
+</ul>
+<p>などを募集しております。何かネタがありましたらご連絡ください。また、編集に参加したいというお申し出も大歓迎です。</p>
+<p>連絡先 : <a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
+]]></content>
+  </entry>
+
+  <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0052 号]]></title>
     <link href="http://magazine.rubyist.net/?0052"/>
     <updated>2015-12-06T21:30:00+09:00</updated>
