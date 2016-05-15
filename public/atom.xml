@@ -11,6 +11,34 @@
   </author>
 
   <entry>
+    <title type="html"><![CDATA[東京 Ruby 会議 11 直前特集号]]></title>
+    <link href="http://magazine.rubyist.net/?preTokyoRubyKaigi11"/>
+    <updated>2016-05-15T09:30:00+09:00</updated>
+    <id>http://magazine.rubyist.net/?preTokyoRubyKaigi11</id>
+    <content type="html"><![CDATA[
+<h1 class="header">東京 Ruby 会議 11 直前特集号</h1>
+<p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
+<h2>目次</h2>
+<p>このレポートでは、5/28 (土) に東京秋葉原コンベンションホールで開催される <a href="http://regional.rubykaigi.org/tokyo11/" class="external">東京 Ruby 会議 11</a> の講演者の皆さんへのインタビューや企画のご紹介などを掲載していきます。当日までの予習のお供にぜひご活用ください！！</p>
+<h3>スピーカーインタビュー</h3>
+<ul>
+<li>「Image Recognition and Code that shouldn't exist」 <a href="http://regional.rubykaigi.org/tokyo11/interview/tenderlove/" class="external">Aaron Patterson さんインタビュー</a> (5/11 公開)</li>
+</ul>
+<h2>おねがい</h2>
+<p>記事へのご意見、ご感想や、「こんな記事が読みたい」、「あの人の記事が読みたい」、といったご希望などがありましたら、下記連絡先までお気軽にお寄せください。</p>
+<p>記事の投稿も随時受け付けております。</p>
+<ul>
+<li>Ruby に関する技術記事・解説記事</li>
+<li>Ruby 活用事例</li>
+<li>Ruby がちょっとでも絡むエッセイ</li>
+<li>Ruby に関するその他</li>
+</ul>
+<p>などを募集しております。何かネタがありましたらご連絡ください。また、編集に参加したいというお申し出も大歓迎です。</p>
+<p>連絡先 : <a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
+]]></content>
+  </entry>
+
+  <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0053 号]]></title>
     <link href="http://magazine.rubyist.net/?0053"/>
     <updated>2016-04-03T18:30:00+09:00</updated>
