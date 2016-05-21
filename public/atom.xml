@@ -13,7 +13,7 @@
   <entry>
     <title type="html"><![CDATA[東京 Ruby 会議 11 直前特集号]]></title>
     <link href="http://magazine.rubyist.net/?preTokyoRubyKaigi11"/>
-    <updated>2016-05-18T17:30:00+09:00</updated>
+    <updated>2016-05-20T17:30:00+09:00</updated>
     <id>http://magazine.rubyist.net/?preTokyoRubyKaigi11</id>
     <content type="html"><![CDATA[
 <h1 class="header">東京 Ruby 会議 11 直前特集号</h1>
@@ -30,6 +30,8 @@
 <li>「Streem」 <a href="http://regional.rubykaigi.org/tokyo11/interview/matz/" class="external">まつもとゆきひろさんインタビュー</a> (5/17 公開)</li>
 <li>「Optcarrot: A pure-ruby NES emulator」 <a href="http://regional.rubykaigi.org/tokyo11/interview/mame/" class="external">遠藤侑介さんインタビュー</a> (5/18 公開)</li>
 <li>「分散ワークフローエンジン『Digdag』の実装」 <a href="http://regional.rubykaigi.org/tokyo11/interview/frsyuki/" class="external">古橋貞之さんインタビュー</a> (5/18 公開)</li>
+<li>「Re: Pattern Matching in Ruby」 <a href="http://regional.rubykaigi.org/tokyo11/interview/k-tsj/" class="external">辻本和樹さんインタビュー</a> (5/20 公開)</li>
+<li>「IMF: Image Manipulation Framework」 <a href="http://regional.rubykaigi.org/tokyo11/interview/mrkn/" class="external">村田賢太さんインタビュー</a> (5/20 公開)</li>
 </ul>
 <h2>おねがい</h2>
 <p>記事へのご意見、ご感想や、「こんな記事が読みたい」、「あの人の記事が読みたい」、といったご希望などがありましたら、下記連絡先までお気軽にお寄せください。</p>
