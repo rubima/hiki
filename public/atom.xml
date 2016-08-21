@@ -4,11 +4,65 @@
   <title><![CDATA[Rubyist Magazine - るびま]]></title>
   <link href="http://magazine.rubyist.net/atom.xml" rel="self"/>
   <link href="http://magazine.rubyist.net/"/>
-  <updated>2015-12-06T21:30:00+09:00</updated>
+  <updated>2016-08-21T20:48:00+09:00</updated>
   <id>http://magazine.rubyist.net/</id>
   <author>
     <name><![CDATA[RubiMa Editors]]></name>
   </author>
+
+  <entry>
+    <title type="html"><![CDATA[Rubyist Magazine 0053 号]]></title>
+    <link href="http://magazine.rubyist.net/?0053"/>
+    <updated>2016-08-21T20:48:00+09:00</updated>
+    <id>http://magazine.rubyist.net/?0054</id>
+    <content type="html"><![CDATA[
+<h1 class="header">Rubyist Magazine 0054 号</h1>
+<p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
+<h2>目次</h2>
+<h3><a href="./?0054-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br />
+編集長からの 0054 号発行の挨拶です。(難易度：恒例・活動報告)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
+<h3><a href="./?0054-typestruct">Ruby に型があると便利か</a></h3>
+<p>書いた人：@ksss さん<br />東京Ruby会議11にて「Rubyに型があると便利か」という発表をされた @ksss さんの発表の話です。(難易度：型便利)</p>
+<h3><a href="./?0054-ElixirBook">書籍紹介「プログラミング Elixir」</a></h3>
+<p>書いた人：ささだ<br />2016/08/19 に出版される（された）「プログラミング Elixir」の紹介です。
+(難易度：Erlang より簡単)</p>
+<h3><a href="./?0054-tDiary15thAnniversary">tDiary 15th anniversary party レポート</a></h3>
+<p>書いた人：@machu さん、 @hsbt さん<br />2016 年 4 月に開催された tDiary 15th anniversary party のレポート記事です。(難易度：いろいろ)</p>
+<h3><a href="./?0054-TokyoRubyKaigi11Report">RegionalRubyKaigi レポート (58) 東京 Ruby 会議 11 レポート</a></h3>
+<p>書いた人：津田均さん、染谷洋平さん、zunda さん<br />2016 年 5 月に東京で開催された東京 Ruby 会議 11 の報告です。(難易度：血湧き肉躍る)</p>
+<h3><a href="./?0054-TokyoRubyKaigi11OrganizeReport">東京 Ruby 会議 11 運営レポート</a></h3>
+<p>書いた人：笹田耕一（東京Ruby会議11実行委員長）<br />2016 年 5 月に東京で開催された東京 Ruby 会議 11 の運営の記録です。(難易度：ひとりでできるもん)</p>
+<h3><a href="./?0054-TokyuRubyKaigi10Report">RegionalRubyKaigi レポート (59) Tokyu Ruby 会議 10 レポート</a></h3>
+<p>書いた人：五十嵐 邦明さん<br />2016 年 5 月に東京で開催されたTokyu Ruby 会議 10 の報告です。(難易度：いろいろ)</p>
+<h3><a href="./?0054-RailsGirlsTokyo6thReport">Rails Girls Tokyo 6th レポート</a></h3>
+<p>書いた人：attsumi さん<br />2016 年 6 月に東京で開催された Rails Girls Tokyo 6th の報告です。(難易度：いろいろ)</p>
+<h3><a href="./?0054-RubyistMagazineRanking">るびまアクセスランキング Vol.54</a></h3>
+<p>0053 号リリース時点から 0054 号リリース直前までの、るびまの記事のアクセスランキングです。</p>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本 Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
+<h3><a href="./?0054-EditorsNote">0054 号 編集後記</a></h3>
+<h2>次号予告</h2>
+<p>次号は 2016 年 12 月頃にリリースする予定です。</p>
+<h3>掲載予定記事</h3>
+<ul>
+<li>RegionalRubyKaigi レポート</li>
+</ul>
+<h2>おねがい</h2>
+<p>記事へのご意見・ご感想・ご指摘や、「こんな記事が読みたい」、「あの人の記事が読みたい」、といったご希望などがありましたら、下記連絡先までお気軽にお寄せください。</p>
+<p>記事の投稿も随時受け付けております。</p>
+<ul>
+<li>Ruby に関する技術記事・解説記事</li>
+<li>Ruby 活用事例</li>
+<li>Ruby がちょっとでも絡むエッセイ</li>
+<li>Ruby に関するその他</li>
+</ul>
+<p>などを募集しております。何かネタがありましたらご連絡ください。また、編集に参加したいというお申し出も大歓迎です。</p>
+<p>連絡先 : <a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
+]]></content>
+  </entry>
 
   <entry>
     <title type="html"><![CDATA[東京 Ruby 会議 11 直前特集号]]></title>
