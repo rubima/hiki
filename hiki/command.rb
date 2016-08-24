@@ -148,7 +148,12 @@ module Hiki
       data[:body_enter] = @body_enter
       data[:lang] = @conf.lang
       data[:header] = @plugin.header_proc
-      data[:body_leave] = @plugin.body_leave_proc
+      if !@plugin.auth? && @db.get_attribute(@p, :keyword).include?('auth')
+        data[:body_leave] = ''
+      else
+        data[:body_leave] = @plugin.body_leave_proc
+      end
+
       data[:page_attribute] ||= ''
       data[:footer] = @plugin.footer_proc
       data.update( @plugin.data ) if @plugin.data
