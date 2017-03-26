@@ -11,6 +11,58 @@
   </author>
 
   <entry>
+    <title type="html"><![CDATA[Rubyist Magazine 0055 号]]></title>
+    <link href="http://magazine.rubyist.net/?0055"/>
+    <updated>2017-03-26T23:30:00+09:00</updated>
+    <id>http://magazine.rubyist.net/?0055</id>
+    <content type="html"><![CDATA[
+<h1 class="header">Rubyist Magazine 0055 号</h1>
+<p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
+<h2>目次</h2>
+<h3><a href="./?0055-ForeWord">巻頭言</a></h3>
+<p>書いた人：るびま編集長 高橋征義<br />
+編集長からの 0055 号発行の挨拶です。(難易度：低。RubyKaigiについて)</p>
+<h3><a href="./?FirstStepRuby">Ruby の歩き方</a></h3>
+<p>Ruby をはじめるにあたって必要な情報をご紹介します。本稿は Rubyist Magazine 常設記事です。(難易度：低)</p>
+<h3><a href="./?0055-pycall">PyCall があれば Ruby で機械学習ができる</a></h3>
+<p>書いた人：@mrkn さん<br />
+PyCall と呼ばれる Ruby-Python ブリッジライブラリの紹介記事です。(難易度：高。丁寧な現状分析と問題解決に挑むスピード感がすごい。)</p>
+<h3><a href="./?0055-RubyKaigi2016Nursery">RubyKaigi 2016 託児室運営記録（技術カンファレンスにおける託児サービス提供について）</a></h3>
+<p>書いた人：鳥井雪さん<br />
+RubyKaigi 2016 で開設した託児所の運営記録です。
+（難易度：子供を預かるのは大変）</p>
+<h3><a href="./?0055-RubyConf2016Report">RubyConf 2016 参加レポート</a></h3>
+<p>書いた人：@mtsmfm さん<br />
+2016 年 11 月に開催された RubyConf 2016 の参加レポート記事です。（難易度：中。3 日間の圧倒的なボリューム）</p>
+<h3><a href="./?0055-KawasakiRubyKaigi01Report">RegionalRubyKaigi レポート (60) 川崎 Ruby 会議 01</a></h3>
+<p>書いた人：@snowcrush さん、近藤さん<br />
+2016 年 8 月に開催された 川崎 Ruby 会議 01 のレポート記事です。(難易度：中。豪華な発表者たち)</p>
+<h3><a href="./?0055-RubyistMagazineRanking">るびまアクセスランキング Vol.55</a></h3>
+<p>0054 号リリース時点から 0055 号リリース直前までの、るびまの記事のアクセスランキングです。</p>
+<h3><a href="https://github.com/ruby-no-kai/official/wiki/RubyEventCheck" class="external">RubyEventCheck</a></h3>
+<p>Ruby 関連、または Rubyist が興味を持ちそうなイベントをご紹介します。本稿は <a href="https://github.com/ruby-no-kai/official/wiki" class="external">日本 Ruby の会 公式 Wiki</a> にて常時更新されている同名ページへのリンクとなります。(難易度：低)</p>
+<h3><a href="./?0055-EditorsNote">0055 号 編集後記</a></h3>
+<h2>次号予告</h2>
+<p>次号は 2017 年 12 月頃にリリースする予定です。</p>
+<h3>掲載予定記事</h3>
+<ul>
+<li>RegionalRubyKaigi レポート</li>
+</ul>
+<h2>おねがい</h2>
+<p>記事へのご意見・ご感想・ご指摘や、「こんな記事が読みたい」、「あの人の記事が読みたい」、といったご希望などがありましたら、下記連絡先までお気軽にお寄せください。</p>
+<p>記事の投稿も随時受け付けております。</p>
+<ul>
+<li>Ruby に関する技術記事・解説記事</li>
+<li>Ruby 活用事例</li>
+<li>Ruby がちょっとでも絡むエッセイ</li>
+<li>Ruby に関するその他</li>
+</ul>
+<p>などを募集しております。何かネタがありましたらご連絡ください。また、編集に参加したいというお申し出も大歓迎です。</p>
+<p>連絡先 : <a href="mailto:magazine@ruby-no-kai.org" class="external">るびま編集部</a>、<a href="https://github.com/rubima/rubima-support" class="external">るびまサポートリポジトリ</a></p>
+]]></content>
+  </entry>
+
+  <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0054 号]]></title>
     <link href="http://magazine.rubyist.net/?0054"/>
     <updated>2016-08-21T20:48:00+09:00</updated>
