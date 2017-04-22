@@ -19,7 +19,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'thin'
+  gem 'unicorn'
   gem 'sequel'
   gem 'mysql2'
 end
