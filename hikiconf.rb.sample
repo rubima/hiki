@@ -51,9 +51,9 @@
 
 # テーマ
 #   使用するテーマ
-@theme           = 'hiki'
+@theme           = 'rubima'
 #   テーマのURL
-@theme_url       = 'theme'
+@theme_url       = 'theme/rubima/rubima.css'
 #   テーマが存在するパス
 @theme_path      = 'theme'
 
@@ -136,4 +136,11 @@
 #   詳しくは各プラグインのドキュメントを参照してください。
 #
 # 記述例
-# @options['amazon.aid'] = 'amazon-01' 
+# @options['amazon.aid'] = 'amazon-01'
+@options['sp.path'] = ['path to plugin1', 'path to plugin2']
+@options['attach.cgi_name'] = 'attach'
+@database_type = 'rdb'
+@database_url = 'mysql2://ユーザ名:パスワード@localhost/データベース名'
+@database_wiki = '.RubiMa'
+@repos_type = 'rdb'
+@repos_root = 'mysql2://ユーザ名:パスワード@localhost/データベース名'
