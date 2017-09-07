@@ -11,6 +11,20 @@
   </author>
 
   <entry>
+    <title type="html"><![CDATA[Rubyist Magazine 2017 直前特集号]]></title>
+    <link href="http://magazine.rubyist.net/?preRubyKaigi2017"/>
+    <updated>2017-09-07T22:20:00+09:00</updated>
+    <id>http://magazine.rubyist.net/?preRubyKaigi2017</id>
+    <content type="html"><![CDATA[
+<h1 class="header">RubyKaigi 2017 直前特集号</h1>
+<p>『るびま』は、Ruby に関する技術記事はもちろんのこと、Rubyist へのインタビューやエッセイ、その他をお届けするウェブ雑誌です。</p>
+<h2>目次</h2>
+<p>このレポートでは、9/18 (月) から 9/20 (水) に広島国際会議場で開催される <a href="http://rubykaigi.org/2017" class="external">RubyKaigi 2017</a> の基調講演やプレゼンテーション発表・企画を紹介し、見どころをいち早くお伝えします。</p>
+<p>レポートは、開催までの間に随時更新します。当日までの予習のお供にぜひご活用ください。</p>
+]]></content>
+  </entry>
+
+  <entry>
     <title type="html"><![CDATA[Rubyist Magazine 0056 号]]></title>
     <link href="http://magazine.rubyist.net/?0056"/>
     <updated>2017-08-27T15:20:00+09:00</updated>
